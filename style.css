@@ -1,0 +1,39 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  background-color:black;
+}
+.cont p{
+  font-size:20px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin:5px 5px 10px 10px;
+  padding:auto;
+}
+.butt{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+  position:absolute;
+  left:45%;
+  width:50px;
+  gap:20%;
+}
+.butt #on, button{
+  padding:10px 10px;
+  background:transparent;
+  box-shadow:0px 0px 5px white;
+  border:none;
+}
+
+.butt #on:active{
+  box-shadow:0px 0px 5px green;
+}
+
+.butt button:active{
+  box-shadow:0px 0px 5px red;
+}
