@@ -37,3 +37,12 @@ body{
 .butt button:active{
   box-shadow:0px 0px 5px red;
 }
+.ugh:active{
+  color:black;
+  background:linear-gradient(235deg, gold, silver, gold);
+}
+.ugh{
+  color:black;
+  font-weight:bold;
+  font-size:14px;
+}
